@@ -414,12 +414,12 @@ slide-menu ЭКРАНЫ*/
   .infomation__text {
     height: 160px;
     line-height: 20px;
-    margin-top: 8px;
   }
 
   .infomation {
     display: flex;
     flex-direction: row;
+    margin-top: 24px;
   }
 
   .infomation__logo {
@@ -427,8 +427,9 @@ slide-menu ЭКРАНЫ*/
     height: 208px;
     margin-left: 48px;
     margin-right: 25px;
-    border-radius: 6px;
     margin-bottom: 40px;
+    border-radius: 6px;
+    
   }
 }
 
@@ -507,12 +508,12 @@ slide-menu ЭКРАНЫ*/
     margin-bottom: 0;
   }
 
-  .info__logo {
+  .infomation__logo {
     width: 531px;
     height: 307px;
-    margin-left: 36px;
     margin-right: 29px;
-    border-radius: 6px;
+    margin-left: 36px;
     margin-bottom: 49px;
+    border-radius: 6px;
   }
 }
