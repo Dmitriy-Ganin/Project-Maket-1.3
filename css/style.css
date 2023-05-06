@@ -50,7 +50,6 @@ html {
 body {
   font-family: "TT Lakes", "Verdana", sans-serif;
   color: #000;
-  /*margin: 0px auto;*/
 }
 
 img {
@@ -82,8 +81,6 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: #FFFFFF;
-  /*margin-left: 16px;*/
-  /*padding: 18.59px 16px;*/
 }
 
 .header__nav {
@@ -96,7 +93,6 @@ a {
 
 }
 
-
 .icons-buttons {
   display: none;
 }
@@ -106,17 +102,14 @@ a {
   display: flex;
   position: relative;
   gap: 16px;
-  /*поменять в больших экранах на 160px*/
   align-items: center;
   margin-right: 16px;
-  /*поменять в больших экранах на 24px*/
 }
 
 .menu__paragraph {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /*gap: 10px;-внести в большой экран*/
 }
 
 .menu__link {
@@ -136,22 +129,6 @@ a {
   height: 32px;
   background-color: #EAEAEA;
 }
-
-/*header*/
-
-/*.title {
-position: absolute;
-height: 40px;
-left: 5%;
-right: 5%;
-top: calc(50% - 40px/2 - 166.5px);
-
-font-weight: bold;
-font-size: 28px;
-line-height: 40px;
-letter-spacing: -0.6px;
-color: #1B1C21;
-}*/
 
 /*h*/
 .container-h {
@@ -178,7 +155,6 @@ color: #1B1C21;
   background: #41F6D7;
   border-radius: 0px 6px 6px 0;
 }
-
 /*h*/
 
 /*main*/
@@ -204,28 +180,6 @@ color: #1B1C21;
   padding-top: 16px;
   padding-left: 16px;
 }
-
-
-/*slide-menu ЭКРАНЫ
-@media screen and (min-width: 767px) {
-  .slide-menu__list {
-      display: flex;
-      padding-top: 24px;
-      padding-left: 20px;
-  }
-  
-}
-
-@media screen and (min-width: 1120px) {
-  .slide-menu__list {
-      display: flex;
-      width: 1100px;
-      flex-wrap: wrap;
-      margin-left: 35px;
-      margin-top: 10px;
-  }
-}
-slide-menu ЭКРАНЫ*/
 .slide-menu__link,
 .slide-menu__link_active {
   display: inline-block;
@@ -317,57 +271,6 @@ slide-menu ЭКРАНЫ*/
   border: 2px solid #FFFFFF;
 }
 
-/*фото*/
-/*
-
-.menu__link {
-  display: block;
-}
-
-.menu__link-repair {
-  position: absolute;
-  top: 10px;
-  left: -140px;
-  color:#000;
-}
-
-.menu__link-status {
-  color:#000;
-  position: absolute;
-  top: 8px;
-  left: 70px;
-}*/
-
-
-
-/*перенести на средний и большой размер экрана
-.icons-buttons { 
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-left: 20px;
-}
-
-
-.user-menu {
-  display: flex;
-  position: relative;
-  gap: 16px;
-  align-items: center;
-  margin: 0;
-}
-
-.user-menu::before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 2px;
-  height: 32px;
-  left: -20px;
-  background-color: #EAEAEA; 
-}
-перенести на средний и большой размер экрана*/
-
 @media (min-width: 767px) {
   .header__nav {
     gap: 20px;
@@ -453,7 +356,6 @@ slide-menu ЭКРАНЫ*/
 
   .icons-buttons {
     display: none;
-    /*Подумать, как это поменять*/
   }
 
   .menu {
