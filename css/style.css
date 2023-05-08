@@ -238,12 +238,12 @@ a {
   color: #1B1C21;
 }
 
-.content__photo {
+.content__picture {
   width: 100%;
   height: auto;
 }
 
-.content__logo {
+.content__photo {
   width: 100%;
   border: 2px solid #FFFFFF;
 }
@@ -299,7 +299,7 @@ a {
     line-height: 20px;
   }
 
-  .content__logo {
+  .content__photo {
     width: 360px;
     height: 208px;
     margin-left: 48px;
@@ -373,7 +373,7 @@ color: #1B1C21;
   margin-bottom: 0;
 }
 
-.content__logo {
+.content__photo {
   width: 531px;
   height: 307px;
   margin-right: 29px;
