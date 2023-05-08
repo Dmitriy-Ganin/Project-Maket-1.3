@@ -4,66 +4,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style copy.css" rel="stylesheet">
   <title>CPS servise</title>
 </head>
 
 <body>
-  <div class="container-top">
-    <header class="header">
-      <nav class="header__nav">
-        <button class="header__burger" type="button">
-          <img src="content/icon/burger.svg" alt="burger">
-        </button>
-        <a href="#" class="header__logo">
+  <header class="header">
+    <label class="header__box box">
+      <button class="box__burger" type="button">
+        <img src="content/icon/burger.svg" alt="burger">
+      </button>
+      <a href="#" class="box__logo">
+        <picture class="box__logo-icon">
+          <source srcset="content/icon/Group.svg" type="image/svg">
           <img src="content/icon/Group.svg" alt="logo">
-        </a>
-      </nav>
-      <nav class="header__tactic">
-        <ul class="header__icons icons-buttons">
-          <li class="icons-buttons__icon">
-            <a href="#" class="icons-buttons__call">
-              <img src="content/icon/call.svg" alt="call">
-            </a>
-          </li>
-          <li class="icons-buttons__icon">
-            <a href="#" class="icons-buttons__chat">
-              <img src="content/icon/chat.svg" alt="call">
-            </a>
-          </li>
-          <li class="icons-buttons__icon">
-            <a href="#" class="icons-buttons__profile">
-              <img src="content/icon/profile.svg" alt="call">
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="header__action">
-        <ul class="header__action-menu menu">
-          <li class="menu__paragraph">
-            <span class="menu__link">
-              <a href="#" class="menu__link-repair">Оставить заявку</a>
-            </span>
-            <a href="#" class="menu__repair">
-              <img src="content/icon/repair.svg" alt="repair">
-            </a>
-          </li>
-          <li class="menu__paragraph">
-            <span class="menu__link">
-              <a href="#" class="menu__link-status">Статус ремонта</a>
-            </span>
-            <a href="#" class="menu__checkstatus">
-              <img src="content/icon/checkstatus.svg" alt="checkstatus">
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="container-h">
-      <h1 class="container-h__caption">Услуги и сервисы</h1>
+        </picture>
+      </a>
+    </label>
+    <div class="header__actions actions">
+      <label class="actions__social">
+        <button class="actions__call" type="button">
+          <img src="content/icon/call.svg" alt="call">
+        </button>
+        <button class="actions__chat" type="button">
+          <img src="content/icon/chat.svg" alt="call">
+        </button>
+        <button class="actions__profile" type="button">
+          <img src="content/icon/profile.svg" alt="call">
+        </button>
+      </label>
+      <label class="actions__applications">
+        <button class="actions__btn" type="button">
+          <span class="actions__link-repair">Оставить заявку</span>
+          <img src="content/icon/repair.svg" alt="repair">
+        </button>
+        <button class="actions__btn" type="button">
+          <span class="actions__link-status">Статус ремонта</span>
+          <img src="content/icon/checkstatus.svg" alt="checkstatus">
+        </button>
+      </label>
     </div>
-  </div>
+  </header>
+
   <main class="main">
+    <div class="main__caption">
+      <h1 class="main__caption-text">Услуги и сервисы</h1>
+    </div>
     <nav class="main__slide-menu slide-menu">
       <ul class="slide-menu__list">
         <li class="slide-menu__item">
@@ -87,8 +73,8 @@
       </ul>
     </nav>
     <section class="infomation">
-      <div class="infomation__text-content">
-        <p class="infomation__text">
+      <div class="infomation__content content">
+        <p class="content__text">
           Мы являемся авторизованным сервисным центром по ремонту техники Dell.
           Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
           <br>
@@ -97,19 +83,18 @@
           количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь,
           советуют нас родным и близким.
         </p>
-        <button class="infomation__show-more">
-          <img class="infomation__show-more-icon" src="content/icon/icon.svg" alt="next">
-          <p class="infomation__show-more-text">Читать далее</p>
+        <button class="content__show-more">
+          <img class="content__show-more-icon" src="content/icon/icon.svg" alt="next">
+          <p class="content__show-more-text">Читать далее</p>
           </span>
         </button>
       </div>
-      <picture class="infomation__photo">
+      <picture class="content__photo">
         <source srcset="content/picture/CPS.png" type="image/png">
-        <img class="infomation__logo" src="content/picture/CPS.png" alt="cps photo">
+        <img class="content__logo" src="content/picture/CPS.png" alt="cps photo">
       </picture>
     </section>
   </main>
-  </div>
 </body>
 
 </html>
