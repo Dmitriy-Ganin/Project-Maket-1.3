@@ -311,75 +311,76 @@ a {
 }
 
 @media screen and (min-width: 1120px) {
-  .header{
-  display: block;
-  height: 0;
+  .header {
+    display: block;
+    height: 0;
   }
 
-.box, .actions__social {
-display: none;
-}
+  .box,
+  .actions__social {
+    display: none;
+  }
 
-.actions{
-  margin: 0;   
-}
+  .actions {
+    margin: 0;
+  }
 
-.actions__applications{
-  margin-top: 42px;
-  margin-left: auto;
-  margin-right: 32px;
-  gap: 32px;
-}
+  .actions__applications {
+    margin-top: 42px;
+    margin-left: auto;
+    margin-right: 32px;
+    gap: 32px;
+  }
 
-.actions__btn {
-  gap: 8px;
-}
+  .actions__btn {
+    gap: 8px;
+  }
 
-.actions__applications::before {
-  display: none;
-}
+  .actions__applications::before {
+    display: none;
+  }
 
-.actions__link-repair,
-.actions__link-status {
-  display: block;
-  font-family: 'TT Lakes';
-font-size: 16px;
-line-height: 24px;
-text-align: right;
-letter-spacing: -0.2px;
-color: #1B1C21;
-}
+  .actions__link-repair,
+  .actions__link-status {
+    display: block;
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+  }
 
-.main__title {
-  margin-top: 42px;
-  margin-bottom: 8.5px;
-  gap: 30px;
-  
-}
+  .main__title {
+    margin-top: 42px;
+    margin-bottom: 8.5px;
+    gap: 30px;
 
-.slide-menu__list {
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-right: 32px;
-  padding-left: 32px;
-  padding-top: 8px;
-}
+  }
 
-.content {
-  margin-left: 34px;
-}
+  .slide-menu__list {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 8px;
+  }
 
-.content__text {
-  margin-bottom: 0;
-}
+  .content {
+    margin-left: 34px;
+  }
 
-.content__photo {
-  width: 531px;
-  height: 307px;
-  margin-right: 29px;
-  margin-left: 36px;
-  margin-bottom: 49px;
-  border-radius: 6px;
-}
+  .content__text {
+    margin-bottom: 0;
+  }
+
+  .content__photo {
+    width: 531px;
+    height: 307px;
+    margin-right: 29px;
+    margin-left: 36px;
+    margin-bottom: 49px;
+    border-radius: 6px;
+  }
 
 }
