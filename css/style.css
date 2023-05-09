@@ -337,7 +337,7 @@ display: none;
 
 .actions__applications::before {
   display: none;
-  }
+}
 
 .actions__link-repair,
 .actions__link-status {
